@@ -52,7 +52,6 @@ async function main() {
   // Wait for the contract to be deployed. 
   await deployedNFTContract.deployed() ;
 
-
   // Print the address of the deployed contract 
   console.log("NFT Contract Address : ", deployedNFTContract.address) ;
 }

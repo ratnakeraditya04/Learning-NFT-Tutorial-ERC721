@@ -1,13 +1,16 @@
-# Sample Hardhat Project
+# NFT Tutorial
+
+This is a NFT Learning Project where I learnt how to create a NFT token. To learn this, I consulted many resources such as Documentations of Hardhat, Solidity and finally consulted the website <a href = "https://learnweb3.io/courses/9a3fafe4-b5eb-4329-bdef-97b2aa6aacc1/lessons"> LearnWeb3 </a> to learn the fundamentals. 
+
+
+####### Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+After cloning the repository in a new folder, run the following tasks in the teminal :
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
+npm install 
+# npx hardhat help
+# npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
